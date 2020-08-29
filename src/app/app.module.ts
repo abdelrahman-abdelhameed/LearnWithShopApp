@@ -10,6 +10,7 @@ import {FormsModule} from '@angular/forms';
 import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { RecipesComponent } from './recipes/recipes.component'
+import {ShoppingListEditComponent} from './shopping-list/shopping-list-edit/shopping-list-edit.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,7 @@ import { RecipesComponent } from './recipes/recipes.component'
     RecipeDetailsComponent,
     
     ShoppingListComponent,
-    
+    ShoppingListEditComponent,
     RecipesComponent
   ],
   imports: [
