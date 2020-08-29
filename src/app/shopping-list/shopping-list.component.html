@@ -3,5 +3,16 @@
         <app-shopping-list-edit></app-shopping-list-edit>
     </div>
     <hr>
-    <p> the list </p>
+   
 </div> 
+
+<div class="col-xl-12">
+    <div class="card">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" *ngFor="let item of ingredient">
+              {{item.name}} ({{item.amount}})
+          </li>
+          
+        </ul>
+      </div>
+</div>
